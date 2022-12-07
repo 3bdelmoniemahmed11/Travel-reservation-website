@@ -1,0 +1,64 @@
+.navbar-light
+{
+    background-color: var(--whiteColorDeam);
+    border-bottom: 5px solid #0073a8;
+}
+.navbar-light .navbar-brand
+{
+    color:var(--blackColor);
+    font-weight: 600;
+}
+.navbar-light .navbar-brand .icon
+{
+    font-size: 25px;
+    color:var(--PrimaryColor);
+    transform: translateY(8px);
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color:var(--textColor);
+    font-weight: 600;
+    transition: color 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color:var(--PrimaryColor);
+}
+.navbar-nav
+{
+    margin-right: 120px !important;
+}
+.navbar-nav .nav-item
+{
+    margin-left: 15px;
+}
+
+.bookBtn
+{
+    background: linear-gradient(to right,#10b5cb,#0073a8);
+    border: none;
+    outline: none;
+    padding:5px  15px;
+    border-radius:3rem;
+    margin-left:15px;
+    cursor: pointer;
+    
+}
+.bookBtn a
+{
+    color: var(--whiteColor);
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar-light .navbar-toggler-icon
+{
+  background-image: none !important;
+  font-size: 25px;
+  color: #0073a8;
+ 
+}
+.navbar-light .navbar-toggler
+{
+    border:none !important;
+    outline: none !important;
+}
