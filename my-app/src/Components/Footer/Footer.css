@@ -1,0 +1,110 @@
+.footer
+{
+    position: relative;
+    background:#e1e1eb;
+    background: url("../../assets/wave.svg") no-repeat ;
+    background-position: bottom;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.footer .footerText small
+{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--blackColor);
+}
+.footer .footerText h2
+{
+    font-size: 1.8rem;
+    color: var(--blackColor);
+
+
+}
+.footer .form-group
+{
+    display: flex;
+    margin-left: 20px;
+}
+.footer .form-group input
+{
+    margin-top: 20px;
+    border: 1px solid var(--whiteColor);
+    outline: none;  
+    border: none;
+}
+.footer .sendBtn
+{
+    padding:0px 5px ;
+    width: 100px;
+    height: 40px;;
+    margin-left:5px;
+    position: relative;
+    top:18px;
+    font-size: 13px; 
+}
+.footerInfo
+{
+    margin-top: 30px;
+    padding: 1rem  1rem 4rem ;
+    background: var(--whiteColor);
+    border-radius: 1rem;
+
+
+}
+.footer .footerLogo a
+{
+    color:var(--blackColor);
+    font-weight: 600;
+}
+.footer .footerLogo a .icon
+{
+    font-size: 25px;
+    color:var(--PrimaryColor);
+    transform: translateY(8px);
+}
+.footer .footerPragraph
+{
+    margin-top:10px;
+    font-size: 13px;
+    color:var(--textColor);
+    word-break: break-all;
+}
+.footer .footerSocials
+{
+    margin-top:10px;
+    color: var(--blackColor);
+    font-size: 20px;
+}
+.footer .footerSocials .icon
+{
+    margin-left:5px
+}
+.footer .footerSocials .icon:hover
+{
+    color: var(--PrimaryColor);
+    cursor: pointer;
+}
+.footer .group-title
+{
+    font-weight: 600;
+    color: var(--blackColor);
+    margin-bottom: 0.5rem;
+}
+.footer ul li
+{
+    font-size: 15px;
+    color:var(--textColor);
+    transition: 0.3s ease-in-out; 
+}
+.footer ul li .icon
+{
+    font-size: 15px;
+    color: var(--greyText);
+
+}
+.footer ul li:hover 
+{
+    color: var(--PrimaryColor);
+    transform: translatex(7px);
+    cursor: pointer;
+}

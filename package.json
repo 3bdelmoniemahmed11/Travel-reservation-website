@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "aos": "^2.3.4",
     "gh-pages": "^4.0.0",
     "react-icons": "^4.7.1"
   }

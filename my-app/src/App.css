@@ -7,14 +7,14 @@
 }
 :root
 {
-  --PrimaryColor:hsl(199,100%,33%);
-  --SecondaryColor:hsl(187,85%,43%);
+  --PrimaryColor:#0073a8;
+  --SecondaryColor:#10b5cb;
   --gradientColor:linear-gradient(to right,#10b5cb,#0073a8);
   --whiteColor:hsl(0,0%,100%);
   --blackColor:hsl(201,33%,16%);
   --textColor:hsl(240,4%,36%);
   --whiteColorDeam:hsl(0,0%,93%);
-  --greyText:rgb(190,190,190);
+  --greyText:rgb(196, 147, 147);
   --inputColor:rgb(239,239,239);
   --bodyColor:rgb(240,240,246);
   --cardBG:rgb(225,225,235);

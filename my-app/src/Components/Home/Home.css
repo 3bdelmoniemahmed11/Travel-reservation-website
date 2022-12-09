@@ -8,7 +8,7 @@
     height: 650px ;
     object-fit: cover;
 }
-.home .overlay
+.overlay
 {
     position:absolute; 
     height: 650px;
