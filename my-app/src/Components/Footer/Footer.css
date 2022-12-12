@@ -6,6 +6,7 @@
     background-position: bottom;
     padding: 50px 0;
     overflow: hidden;
+    background-size: cover;
 }
 .footer .footerText small
 {
@@ -107,4 +108,21 @@
     color: var(--PrimaryColor);
     transform: translatex(7px);
     cursor: pointer;
+}
+@media(max-width:768px)
+{
+
+.footer .footerText
+{
+  white-space: nowrap;
+  text-align: left !important;
+}
+}
+
+@media(max-width:992px )
+{
+    .footer .form-group
+    {
+        margin-left: 0px !important;
+    }
 }

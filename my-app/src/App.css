@@ -20,6 +20,10 @@
   --cardBG:rgb(225,225,235);
   --cardHover:rgb(255,255,255)
 }
+html
+{
+  scroll-behavior: smooth;
+}
 body
 {
   background: var(--bodyColor);
@@ -43,4 +47,12 @@ a:hover
   outline: none;
   border: none;
   font-size: 18px;
+}
+/*media queries*/
+@media(min-width:2560px)
+{
+  body
+  {
+    zoom:1.7;
+  }
 }

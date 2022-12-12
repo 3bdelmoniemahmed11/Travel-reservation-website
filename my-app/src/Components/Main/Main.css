@@ -109,3 +109,17 @@
   margin-top: 1rem;
 }
 
+/*media queries*/
+@media(max-width:390px)
+{
+    .main .mainTitle
+    {
+        font-size:15px !important;
+    }
+    .main .mainTitle::after
+    {
+       
+        width: 310px;
+        
+    }
+}

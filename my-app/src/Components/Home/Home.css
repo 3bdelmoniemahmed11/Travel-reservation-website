@@ -102,3 +102,11 @@
 {
     color: var(--PrimaryColor);
 }
+/*media queries*/
+@media(max-width:369px)
+{
+    .home .filterBtn
+    {
+        font-size: 17px ;
+    }
+}

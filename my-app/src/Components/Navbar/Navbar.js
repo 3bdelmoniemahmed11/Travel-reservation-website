@@ -13,13 +13,13 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav  mx-auto">
         <li className="nav-item">
-          <a className="nav-link" href="/#">Home <span className="sr-only">(current)</span></a>
+          <a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/#">Packages</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#">Shop</a>
+          <a className="nav-link" href="#main">Shop</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/#">About</a>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <a className="nav-link" href="/#">News</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/#">Contact</a>
+          <a className="nav-link" href="#footer">Contact</a>
         </li>
         <button type="button" className='bookBtn'><a href="/#">Book Now</a></button>
       </ul>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React ,{useEffect, useState} from 'react'
+
 import video from "../../../src/assets/video(1).mp4"
 import "./Home.css"
 import {GrLocation } from "react-icons/gr"
@@ -8,21 +9,34 @@ import {AiOutlineInstagram} from "react-icons/ai"
 import {SiTripadvisor} from "react-icons/si"
 import {BsListTask} from "react-icons/bs"
 import {TbApps} from "react-icons/tb"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 
-
-const Home = () => {
+const Home = ({filteration,abdo}) => {
+  const [fees,setFess]=useState("0");
+  const filterHandeler=(e)=>
+  {
+    const value=e.target.value;
+      setFess(value);
+      filteration(value);
+      abdo.current();
+  }
+  useEffect(()=>
+  {
+    Aos.init({duration :2000})  
+  },[])
   return (
-    <section className='home'>
+    <section className='home' id="home">
       <div className='overlay'>
       <div className='container'>
         <div className="row">
         <div className="col-lg-12">
         <div className='homeContent'>
-          <p className='smallText'>Our Packages</p>
-          <h1 >Search your Holiday</h1>
+          <p className='smallText' data-aos="fade-up">Our Packages</p>
+          <h1 data-aos="fade-up">Search your Holiday</h1>
         </div> 
-        <div className='card'>
+        <div data-aos="fade-up" className='card'>
           <div className='container'>
           <div className="row">
       
@@ -43,9 +57,8 @@ const Home = () => {
 
       <div className='col-lg-4'>
       <div className="form-group">
-          <label htmlFor="price">Max price :</label>
-          <span className='total'>$5000</span>
-          <input type="range" className="form-control" max="5000" min="1000"/>
+          <label htmlFor="price"> price :${fees}</label>
+          <input  type="range" className="form-control" value={fees} onChange={filterHandeler} max="4000" min="0" step="100"/>
           
        </div>   
       </div>        
@@ -57,7 +70,7 @@ const Home = () => {
           </div>
         </div> 
 
-        <div className='homeIcons'>
+        <div className='homeIcons' data-aos="fade-up">
         <div className='rightIcons'>
           <a href="/#"><FiFacebook  className="icon"/></a>
          <a href="/#"><AiOutlineInstagram className="icon"/></a> 

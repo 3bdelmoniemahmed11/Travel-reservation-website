@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Travel-reservation-website/static/css/main.43db9ca6.css",
+    "main.js": "/Travel-reservation-website/static/js/main.02d87318.js",
+    "static/media/video(1).mp4": "/Travel-reservation-website/static/media/video(1).4efcbe278d8d061270ed.mp4",
+    "static/media/img(5).jpeg": "/Travel-reservation-website/static/media/img(5).3e00e8a8e70638f76682.jpeg",
+    "static/media/img(7).jpeg": "/Travel-reservation-website/static/media/img(7).ee54b4569b26c604264e.jpeg",
+    "static/media/img(8).jpeg": "/Travel-reservation-website/static/media/img(8).70a6f486bca9e05d4534.jpeg",
+    "static/media/img(6).jpeg": "/Travel-reservation-website/static/media/img(6).91357dfdf90207941ad1.jpeg",
+    "static/media/img(1).jpeg": "/Travel-reservation-website/static/media/img(1).38c521f623e122215232.jpeg",
+    "static/media/img(3).jpeg": "/Travel-reservation-website/static/media/img(3).d2ed3aeedcf19c07e27c.jpeg",
+    "static/media/img(4).jpeg": "/Travel-reservation-website/static/media/img(4).146dec59026674f9c28e.jpeg",
+    "static/media/img(2).jpeg": "/Travel-reservation-website/static/media/img(2).0c51f8851d5057d6b093.jpeg",
+    "static/media/img(9).jpeg": "/Travel-reservation-website/static/media/img(9).61fa7892b04c03b541c8.jpeg",
+    "index.html": "/Travel-reservation-website/index.html",
+    "static/media/wave.svg": "/Travel-reservation-website/static/media/wave.5cf92950e812599f1ca9.svg",
+    "main.43db9ca6.css.map": "/Travel-reservation-website/static/css/main.43db9ca6.css.map",
+    "main.02d87318.js.map": "/Travel-reservation-website/static/js/main.02d87318.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43db9ca6.css",
+    "static/js/main.02d87318.js"
+  ]
+}
