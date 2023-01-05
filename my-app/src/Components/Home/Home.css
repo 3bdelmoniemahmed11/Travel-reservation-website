@@ -1,112 +1,71 @@
-.home
-{
-    position: relative;
-    color: var(--whiteColor);
+.home {
+  position: relative;
+  color: var(--whiteColor);
 }
-.home  video
-{
-    height: 650px ;
-    object-fit: cover;
+.home video {
+  height: 650px;
+  object-fit: cover;
 }
-.overlay
-{
-    position:absolute; 
-    height: 650px;
-    width: 100%;
-    top: 0;
-    bottom:0;
-    background: rgba(36, 144, 183, 0.3);
-    z-index: 100;
-    max-height: 700px;
+.overlay {
+  position: absolute;
+  height: 650px;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background: rgba(36, 144, 183, 0.3);
+  z-index: 100;
+  max-height: 700px;
 }
-.home .homeContent
-{
-    padding-top: 100px;
-    z-index: 200;
-   
+.home .homeContent {
+  padding-top: 100px;
+  z-index: 200;
 }
-.home .smallText
-{
-    font-size: 13px;
-    text-transform: uppercase;
+.home .smallText {
+  font-size: 13px;
+  text-transform: uppercase;
 }
-.home  .card
-{
-    position: relative;
-    padding:3rem 1rem;
-    background: var(--whiteColor);
-    border-radius: 10px;
-    color: var(--textColor);
+.home .card {
+  position: relative;
+  padding: 3rem 1rem;
+  background: var(--whiteColor);
+  border-radius: 10px;
+  color: var(--textColor);
 }
 
-.card label
-{
-   
-    padding-bottom: 10px;
-    font-weight: 500;
-    font-size: 13p;
+.card label {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 13p;
 }
-.form-control
-{
-    position: relative;
+.form-control {
+  position: relative;
 }
-.card .mapIcon
-{
-    position: absolute !important;
-    font-size: 18px;
-    color: var(--PrimaryColor) !important;
-    top: 52px;
-    right: 20px;
-    
-}
-.home .filterBtn
-{
-    position: absolute;
-    padding:5px 1rem;
-    border-radius: 3rem;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: -0.7rem;
-    background:linear-gradient(to right,#10b5cb,#0073a8);
-    color: var(--whiteColor);
-    cursor: pointer;
-    outline: none;
-    border: none;
-    font-size: 18px;
-}
-.home .filterBtn:hover 
-{
- background: var(--PrimaryColor);
-}
-.home .filterBtn .icon 
-{
-    font-size: 15px ;
-    margin-right: 5px;
-
-}
-.home .homeIcons 
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-}
-.home .homeIcons  .icon 
-{
-    font-size: 20px ;
-    color: var(--whiteColor);
-    font-weight: 600;
-    margin:0 5px ;
+.card .mapIcon {
+  position: absolute !important;
+  font-size: 18px;
+  color: var(--PrimaryColor) !important;
+  top: 52px;
+  right: 20px;
 }
 
-.home .homeIcons  .icon:hover
-{
-    color: var(--PrimaryColor);
+.home .homeIcons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.home .homeIcons .icon {
+  font-size: 20px;
+  color: var(--whiteColor);
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.home .homeIcons .icon:hover {
+  color: var(--PrimaryColor);
 }
 /*media queries*/
-@media(max-width:369px)
-{
-    .home .filterBtn
-    {
-        font-size: 17px ;
-    }
+@media (max-width: 369px) {
+  .home .filterBtn {
+    font-size: 17px;
+  }
 }
