@@ -1,7 +1,11 @@
-import React, { Fragment } from "react";
+import Aos from "aos";
+import React, { Fragment, useEffect } from "react";
 import "../About/About.css";
 
 const About = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <Fragment>
       <section id="about">
@@ -9,8 +13,10 @@ const About = () => {
           <div className="row">
             <div className="about-us">
               <div className="col-lg-12 text-center">
-                <h2 className=" display-6 about-title">About us</h2>
-                <p>
+                <h2 className=" display-6 about-title" data-aos="fade-up">
+                  About us
+                </h2>
+                <p data-aos="fade-up">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
